@@ -28,19 +28,17 @@ const Navbar = () => {
 
 				<div id="navbarBasicExample" className="navbar-menu has-text-white">
 					<div className="navbar-start">
-						<a className="navbar-item">Home</a>
-
-						<a className="navbar-item">Documentation</a>
+						<a className="navbar-item">StarWars API Demo</a>
 
 						<div className="navbar-item has-dropdown is-hoverable">
-							<a className="navbar-link">More</a>
+							<a className="navbar-link">More Starwars Stuff</a>
 
 							<div className="navbar-dropdown">
-								<a className="navbar-item">About</a>
-								<a className="navbar-item">Jobs</a>
-								<a className="navbar-item">Contact</a>
+								<a href="https://starwars.fandom.com/wiki/Jedi" className="navbar-item"><i class="fas fa-jedi"></i> Jedi</a>
+								<a href="https://starwars.fandom.com/wiki/Sith" className="navbar-item"><i class="fab fa-sith"></i> Sith</a>
+								<a href="https://starwars.fandom.com/wiki/Galactic_Republic" className="navbar-item"><i class="fab fa-galactic-republic"></i> The Galactic Republic</a>
 								<hr className="navbar-divider" />
-								<a className="navbar-item">Report an issue</a>
+								<a href="https://disneyworld.disney.go.com/shops/hollywood-studios/savis-workshop-handbuilt-lightsabers/"className="navbar-item">Build your own Lightsaber</a>
 							</div>
 						</div>
 					</div>
@@ -48,7 +46,7 @@ const Navbar = () => {
 					<div className="navbar-end">
 						<div className="navbar-item">
 							<div className="buttons">
-								<a className="button is-primary">
+								<a className="button">
 									<strong>Sign up</strong>
 								</a>
 								<a className="button is-light">Log in</a>

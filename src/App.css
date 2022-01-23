@@ -8,10 +8,14 @@
 	--card-bg-color: #424242;
 }
 
-.main {
-    background: linear-gradient(270deg, #EB212E,  #2E67F8);
-    background-size: 600% 600%;
 
+
+body {
+	height: 100vh;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	background: linear-gradient(270deg, #EB212E,  #2E67F8);
+    background-size: 600% 600%;
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
@@ -32,12 +36,6 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 
-}
-
-body {
-	font-family: mono45-headline, monospace;
-	font-style: normal;
-	height: 100vh;
 }
 
 
