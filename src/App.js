@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div id='app'>
+    <div className='main'>
       <Navbar/>
       <SwApi/>
     </div>
