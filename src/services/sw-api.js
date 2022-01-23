@@ -18,9 +18,9 @@ const SwApi = () => {
 
 	console.log(shipData);
 	return (
-		<div className="columns is-flex-wrap-wrap is-centered">
+		<div className="columns is-flex-wrap-wrap is-justify-content-center is-align-item-center is-mobile">
 			{shipData.map((ship) => (
-			<div className="card column is-one-fifth shipCard" key={ship.name}>
+			<div className="card is-one-fifth shipCard" key={ship.name}>
 				<div className="card-content">
 					<div className="media-content">
 						<p className="title is-4 shipName is-spaced">{ship.name}</p>

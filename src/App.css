@@ -1,14 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+
+
 body {
 	font-family: mono45-headline, monospace;
 	font-style: normal;
 }
 
-.shipName {
+.shipName, h1 {
 	font-family: ethnocentric, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 
-/* .shipCard{
-    margin: 5px
-} */
+.shipCard{
+    margin: 5px;
+	width: 300px;
+	text-align: center;
+}
