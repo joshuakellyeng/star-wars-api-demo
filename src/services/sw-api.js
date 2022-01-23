@@ -18,16 +18,16 @@ const SwApi = () => {
 
 	console.log(shipData);
 	return (
-		<div className="columns is-flex-wrap-wrap is-justify-content-center is-align-item-center is-mobile">
+		<div className="columns is-flex-wrap-wrap  is-justify-content-center is-mobile ">
 			{shipData.map((ship) => (
 			<div className="card is-one-fifth shipCard" key={ship.name}>
-				<div className="card-content">
-					<div className="media-content">
-						<p className="title is-4 shipName is-spaced">{ship.name}</p>
-						<p className="subtitle is-4">Manufacturer: {ship.manufacturer}</p>
+				<div className="card-content ">
+					<div className="media-content ">
+						<p className="title is-4 has-text-light shipName is-spaced">{ship.name}</p>
+						<p className="subtitle is-4 has-text-light ">Manufacturer: {ship.manufacturer}</p>
 					</div>
 
-					<div className="content">
+					<div className="content has-text-white">
                          Class: {ship.starship_class}
 					</div>
 				</div>

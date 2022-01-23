@@ -1,13 +1,15 @@
+import '../App.css'
+
 const Navbar = () => {
 	return (
 		<div>
-			<nav className="navbar" role="navigation" aria-label="main navigation">
+			<nav className="navbar navbar-margin" role="navigation" aria-label="main navigation">
 				<div className="navbar-brand">
-					<a className="navbar-item" href="https://bulma.io">
+					<a className="navbar-item" href="https://en.wikipedia.org/wiki/Rebel_Alliance">
 						<img
-							src="https://bulma.io/images/bulma-logo.png"
-							width="112"
-							height="28"
+							src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rebel_Alliance_logo.svg/1024px-Rebel_Alliance_logo.svg.png"
+							width="25"
+							height="25"
 						/>
 					</a>
 
@@ -24,7 +26,7 @@ const Navbar = () => {
 					</a>
 				</div>
 
-				<div id="navbarBasicExample" className="navbar-menu">
+				<div id="navbarBasicExample" className="navbar-menu has-text-white">
 					<div className="navbar-start">
 						<a className="navbar-item">Home</a>
 

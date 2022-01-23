@@ -1,12 +1,19 @@
 *{
 	box-sizing: border-box;
+	
 }
-
+:root{
+	--nav-bg-color: #212121;
+	--app-bg-color: #303030;
+	--card-bg-color: #424242;
+}
 
 body {
 	font-family: mono45-headline, monospace;
 	font-style: normal;
+	background-color: #222
 }
+
 
 .shipName, h1 {
 	font-family: ethnocentric, sans-serif;
@@ -15,7 +22,17 @@ body {
 }
 
 .shipCard{
-    margin: 5px;
+    margin: 10px;
 	width: 300px;
+	height: 300px;
 	text-align: center;
+	background: url(../public/space.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
 }
+
+.navbar-margin{
+	margin-bottom: 10px;
+}
+
